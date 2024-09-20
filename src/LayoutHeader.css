@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: vertically aligns the items */
+  width: 100%; /* Optional: ensures full width of the container */
+  padding: 10px;
+}
+
+.left-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 30%;
+}
+
+.right-item{
+    padding-right: 56px;
+}

@@ -1,0 +1,15 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    gap: 55px; /* Space between images */
+  }
+  
+  .image-item img {
+    width: 100%; /* Makes the image fill its container */
+    height: auto; /* Keeps the image's aspect ratio */
+  }
+  
+  .image-item{
+  padding-bottom: 150%;
+  padding-top: 56.25%;
+  }
